@@ -108,6 +108,44 @@ public class Main {
 
         ///////////////// 5 //////////////////////
 
+//        Fazer um programa para ler o código de uma peça 1, o número de peças 1,
+//        o valor unitário de cada peça 1, o código de uma peça 2,
+//        o número de peças 2 e o valor unitário de cada peça 2.
+//        Calcule e mostre o valor a ser pago.
+
+//        int produto1;
+//        int quantidadeProduto1;
+//        double valorProduto1;
+//
+//        int produto2;
+//        int quantidadeProduto2;
+//        double valorProduto2;
+//
+
+//        System.out.println("Digite o código do produto: ");
+//        produto1 = sc.nextInt();
+//        System.out.println("Digitew a quantidade do produto: ");
+//        quantidadeProduto1 = sc.nextInt();
+//        System.out.println("Digite o valor do produto: ");
+//        valorProduto1 = sc.nextDouble();
+//
+//        System.out.println();
+//        System.out.println("Digite o código do produto: ");
+//        produto2 = sc.nextInt();
+//        System.out.println("Digite a quantidade do produto: ");
+//        quantidadeProduto2 = sc.nextInt();
+//        System.out.println("Digite o valor do produto: ");
+//        valorProduto2 = sc.nextDouble();
+//
+//        double totalProduto1 = quantidadeProduto1 * valorProduto1;
+//        double totalProduto2 = quantidadeProduto2 * valorProduto2;
+//        double totalPagamento = totalProduto1 + totalProduto2;
+//
+//        System.out.println();
+//        System.out.printf("Valor a pagar: %.2f", totalPagamento);
+
+        ///////////////// 5 //////////////////////
+        
 
         sc.close();
     }
