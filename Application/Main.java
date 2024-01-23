@@ -80,6 +80,34 @@ public class Main {
 //
 //        System.out.println("A diferença da multiplicação de " + a + " e " + b + " e " + c + " e " + d + " é: " + diferenca);
 
+        ///////////////// 4 //////////////////////
+
+//        Fazer um programa que leia o número de um funcionário,
+//        seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário
+//        desse funcionário. A seguir, mostre o número e o salário do funcionário,
+//        com duas casas decimais.
+
+//        int id;
+//        double horasTrabalho;
+//        double valorHora;
+//
+//        System.out.println("Digite o ID do funcionário: ");
+//        id = sc.nextInt();
+//        System.out.println("Digite as horas trabalhadas do funcionário: ");
+//        horasTrabalho = sc.nextDouble();
+//        System.out.println("Digite o valor da hora de trabalho do funcionário: ");
+//        valorHora = sc.nextDouble();
+//
+//        double salario = horasTrabalho * valorHora;
+//
+//        System.out.println();
+//        System.out.println("ID funcionário: " + id);
+//        System.out.printf("Salário: %.2f ", salario);
+
+
+
+        ///////////////// 5 //////////////////////
+
 
         sc.close();
     }
