@@ -32,16 +32,34 @@ public class Main {
         // e depois mostrar na tela a soma desses números com uma mensagem explicativa,
         // conforme exemplos.
 
-        int num1;
-        int num2;
-        System.out.println("Digite o primeiro numero");
-        num1 = sc.nextInt();
-        System.out.println("Digite o primeiro numero");
-        num2 = sc.nextInt();
-        int soma = num1 + num2;
-        System.out.println("A soma do número " + num1 + " com o número " + num2 + " é = " + soma);
+        ///////////////// 1 //////////////////////
 
+//        int num1;
+//        int num2;
+//        System.out.println("Digite o primeiro numero");
+//        num1 = sc.nextInt();
+//        System.out.println("Digite o primeiro numero");
+//        num2 = sc.nextInt();
+//        int soma = num1 + num2;
+//
+//        System.out.println("A soma do número " + num1 + " com o número " + num2 + " é = " + soma);
 
+        ///////////////// 2 //////////////////////
+
+//        Faça um programa para ler o valor do raio de um círculo,
+//        e depois mostrar o valor da área deste círculo com quatro casas decimais conforme exemplos.
+//        Fórmula da área: area = π . raio2 Considere o valor de π = 3.14159
+
+//        double raio;
+//        double pi = 3.14159;
+//
+//        System.out.println("Digite o raio do círculo: ");
+//        raio = sc.nextDouble();
+//        double area = pi * (raio * raio);
+//
+//        System.out.printf("A area do circulo com o raio %.2f é de %.4f", raio, area);
+
+        ///////////////// 3 //////////////////////
 
 
         sc.close();
