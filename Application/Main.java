@@ -61,6 +61,25 @@ public class Main {
 
         ///////////////// 3 //////////////////////
 
+//        Fazer um programa para ler quatro valores inteiros A, B, C e D. A seguir,
+//        calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula:
+//        DIFERENCA = (A * B - C * D).
+
+//        int a, b, c, d;
+//
+//        System.out.println("Digite o primeiro numero: ");
+//        a = sc.nextInt();;
+//        System.out.println("Digite o segundo número: ");
+//        b = sc.nextInt();
+//        System.out.println("Digite o terceiro número: ");
+//        c = sc.nextInt();
+//        System.out.println("Digite o quarto número: ");
+//        d = sc.nextInt();
+//
+//        int diferenca = (a * b) - (c * d);
+//
+//        System.out.println("A diferença da multiplicação de " + a + " e " + b + " e " + c + " e " + d + " é: " + diferenca);
+
 
         sc.close();
     }
