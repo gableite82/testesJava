@@ -351,33 +351,264 @@ public class Main {
 //          renda 3000.01 a 4500 - 18%
 //          acima 4500.00 28%
 
-        double salario;
+//        double salario;
+//
+//        System.out.println("Digite seu salario");
+//        salario = sc.nextDouble();
+//
+//        double imposto ;
+//
+//        if (salario <= 2000.0) {
+//            imposto = 0.0;
+//        }
+//        else if (salario <= 3000.0) {
+//            imposto = (salario - 2000.0) * 0.08;
+//        }
+//        else if (salario <= 4500.0) {
+//            imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
+//        }
+//        else {
+//            imposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+//        }
+//
+//        if (imposto == 0.0) {
+//            System.out.println("Isento");
+//        }
+//        else {
+//            System.out.printf("R$ %.2f%n", imposto);
+//        }
 
-        System.out.println("Digite seu salario");
-        salario = sc.nextDouble();
 
-        double imposto ;
 
-        if (salario <= 2000.0) {
-            imposto = 0.0;
-        }
-        else if (salario <= 3000.0) {
-            imposto = (salario - 2000.0) * 0.08;
-        }
-        else if (salario <= 4500.0) {
-            imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
-        }
-        else {
-            imposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
-        }
 
-        if (imposto == 0.0) {
-            System.out.println("Isento");
-        }
-        else {
-            System.out.printf("R$ %.2f%n", imposto);
-        }
+        //////////////////////////// ESTRUTURA DE REPETICAO - WHILE ////////////////////////////////
 
+        ///////////////// 1 //////////////////////
+
+//        Escreva um programa que repita a leitura de uma senha até que ela seja válida.
+//        Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida".
+//        Quando a senha for informada corretamente deve ser impressa a mensagem
+//        "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.
+
+//        int senha;
+//        System.out.println("Digite a senha");
+//        senha = sc.nextInt();
+//        while (senha != 2002){
+//            System.out.println();
+//            System.out.println("Senha incorreta");
+//            System.out.println();
+//            System.out.println("Digite a senha novamente");
+//            senha = sc.nextInt();
+//        }
+//        System.out.println();
+//        System.out.println("Aceeso permitido");
+
+        ///////////////// 1 //////////////////////
+
+//        Escreva um programa para ler as coordenadas (X,Y) de uma quantidade
+//        indeterminada de pontos no sistema cartesiano. Para cada ponto escrever o
+//        quadrante a que ele pertence. O algoritmo será encerrado quando pelo
+//        menos uma de duas coordenadas for NULA (nesta situação sem escrever mensagem alguma).
+
+//        int x;
+//        int y;
+//
+//        System.out.println("Digite um número");
+//        x = sc.nextInt();
+//        System.out.println("Digite um numero");
+//        y = sc.nextInt();
+//
+//        while (x != 0 && y != 0) {
+//            if (x > 0 && y > 0) {
+//                System.out.println();
+//                System.out.println("primeiro");
+//            }
+//            else if (x < 0 && y > 0) {
+//                System.out.println();
+//                System.out.println("segundo");
+//            }
+//            else if (x < 0 && y < 0) {
+//                System.out.println();
+//                System.out.println("terceiro");
+//            }
+//            else {
+//                System.out.println();
+//                System.out.println("quarto");
+//            }
+//            x = sc.nextInt();
+//            y = sc.nextInt();
+//        }
+
+        ///////////////// 2 //////////////////////
+
+//        Um Posto de combustíveis deseja determinar qual de seus produtos
+//        tem a preferência de seus clientes. Escreva um algoritmo para ler o
+//        tipo de combustível abastecido (codificado da seguinte forma:
+//        1.Álcool
+//        2.Gasolina
+//        3.Diesel
+//        4.Fim).
+//        Caso o usuário informe um código inválido (fora da faixa de 1 a 4)
+//        deve ser solicitado um novo código (até que seja válido).
+//        O programa será encerrado quando o código informado for o número 4.
+//        Deve ser escrito a mensagem: "MUITO OBRIGADO" e a quantidade
+//        de clientes que abasteceram cada tipo de combustível, conforme exemplo.
+
+
+//        int codigo;
+//        int gasolina = 0;
+//        int alcool = 0;
+//        int diesel = 0;
+//
+//        System.out.println("Digite o código do produto: ");
+//        codigo = sc.nextInt();
+//
+//        while (codigo != 4){
+//            if (codigo == 1){
+//                gasolina += + 1;
+//            } else if (codigo == 2){
+//                alcool += + 1;
+//            } else if (codigo == 3) {
+//                diesel += + 1;
+//            }
+//            System.out.println("Digite outro código");
+//                codigo = sc.nextInt();
+//            }
+//
+//            System.out.println();
+//            System.out.println("Muito Obrigado");
+//            System.out.println("Alcool: " + alcool);
+//            System.out.println("Gasolina: " + gasolina);
+//            System.out.println("Diesel: " + diesel);
+
+
+        //////////////////////////// ESTRUTURA DE REPETICAO - FOR ////////////////////////////////
+
+        ///////////////// 1 //////////////////////
+
+
+//        Leia um valor inteiro X (1 <= X <= 1000).
+//        Em seguida mostre os ímpares de 1 até X, um valor por linha,
+//        inclusive o X, se for o caso.
+
+//        int x;
+//        System.out.println("Digite um número: ");
+//        x = sc.nextInt();
+//
+//        for (int i = 1; i < x; i++){
+//            if(i % 2 != 0){
+//                System.out.println(i);
+//            }
+//        }
+
+        ///////////////// 2 //////////////////////
+
+//        Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X
+//        que serão lidos em seguida.
+//        Mostre quantos destes valores X estão dentro do intervalo [10,20]
+//        e quantos estão fora do intervalo, mostrando essas informações conforme exemplo
+//        (use a palavra "in" para dentro do intervalo, e "out" para fora do intervalo).
+
+//        int n;
+//
+//        System.out.println("Digite um número");
+//        n = sc.nextInt();
+//
+//        int in = 0;
+//        int out = 0;
+//
+//        for (int i=0; i<n; i++) {
+//            int x = sc.nextInt();
+//            if (x >= 10 && x <= 20) {
+//                in += + 1;
+//            }
+//            else {
+//                out += + 1;
+//            }
+//        }
+//        System.out.println();
+//        System.out.println(in + " in");
+//        System.out.println(out + " out");
+
+        ///////////////// 2 //////////////////////
+
+//        Leia 1 valor inteiro N, que representa o número de casos de teste
+//        que vem a seguir. Cada caso de teste consiste de 3 valores reais,
+//        cada um deles com uma casa decimal. Apresente a média ponderada
+//        para cada um destes conjuntos de 3 valores, sendo que o primeiro valor
+//        tem peso 2, o segundo valor tem peso 3 e o terceiro valor tem peso 5.
+
+        ///////////// COMO RESOLVI ////////////////////////
+
+//        int n;
+//        double x = 0;
+//        System.out.println("Digite um numero: ");
+//        n = sc.nextInt();
+//
+////        int peso1 = 2;
+////        int peso2 = 3;
+////        int peso3 = 5;
+//        double nota1 = 0;
+//        double nota2 = 0;
+//        double nota3 = 0;
+//        double media = 0;
+//
+//
+//        for (int i = 0; i < n; i++) {
+//            x = sc.nextDouble();
+//            nota1 = x * 2;
+//            x = sc.nextDouble();
+//            nota2 = x * 3;
+//            x = sc.nextDouble();
+//            nota3 = x * 5;
+//            media = (nota1 + nota2 + nota3) / 10;
+//            System.out.printf("a média dos números é %.1f", media);
+//        }
+//
+//        //System.out.println("a média dos números é " + media);
+
+        /////////////// RESOLVIDO UDEMY ///////////////////////
+
+//        int n = sc.nextInt();
+//
+//        for (int i=0; i<n; i++) {
+//
+//            double a = sc.nextDouble();
+//            double b = sc.nextDouble();
+//            double c = sc.nextDouble();
+//
+//            double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10.0;
+//
+//            System.out.printf("%.1f%n", media);
+//        }
+
+        ///////////////// 3 //////////////////////
+
+//        Fazer um programa para ler um número N. Depois leia N pares de números
+//        e mostre a divisão do primeiro pelo segundo.
+//        Se o denominador for igual a zero, mostrar a mensagem "divisao impossivel".
+
+
+//        double n ;
+//        System.out.println("Digite um número");
+//        n = sc.nextDouble();
+//
+//        double numerando;
+//        double divisor;
+//        double resultado = 0;
+//
+//        for (int i = 0; i < n; i++) {
+//            numerando = sc.nextDouble();
+//            divisor = sc.nextDouble();
+//            resultado = numerando / divisor;
+//
+//            if (resultado % 2 == 0) {
+//                resultado = numerando / divisor;
+//                System.out.println(resultado);
+//            } else {
+//                System.out.println("Divisão impossível");
+//            }
+//        }
 
         sc.close();
     }
